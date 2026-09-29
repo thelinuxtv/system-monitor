@@ -17,13 +17,13 @@
 	The resource use in building this application is from /proc directory
 		1. /proc/uptime
 		2. /proc/meminfo
-		3. /prco/loadavg
+		3. /proc/loadavg
 
 
 
 
  Usage
-	For users o run the system monintor (CLI) application  just run:
+	For users to run the system monitor (CLI) application  just run:
 		To run:
 			make
 		
