@@ -1,0 +1,11 @@
+[Unit]
+Description=System Monitor
+After=multi-user.target
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/system-monitor
+Restart=no-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
